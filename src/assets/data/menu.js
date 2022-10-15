@@ -1,0 +1,67 @@
+import { AboutIcon, ContactIcon,  FacebookIcon,  GithubIcon,  HomeIcon, LinkedinIcon, PortfolioIcon, ResumeIcon, TwitterIcon, YoutubeIcon } from "../svg/icon";
+
+export const menus = [
+    {
+        title:"Home",
+        name:"__home",
+        icon:<HomeIcon/>,
+        path:"/"
+    },
+    {
+        title:"About",
+        name:"__about",
+        icon:<AboutIcon/>,
+        path:"/about"
+    },
+    {
+        title:"Portfolio",
+        name:"__portfolio",
+        icon:<PortfolioIcon/>,
+        path:"/portfolio"
+    },
+    {
+        title:"Skill",
+          name:"__skill",
+        icon:<PortfolioIcon/>,
+        path:"/skill"
+    },
+    {
+        title:"Resume",
+        name:"__resume",
+        icon:<ResumeIcon/>,
+        path:"/resume"
+    },
+    {
+        title:"Contact",
+        name:"__contact",
+        icon:<ContactIcon/>,
+        path:"/contact"
+    }
+]
+export const socialMenu = [
+    {
+        title:"Facebook",
+        icon:<FacebookIcon/>,
+        path:"https://facebook.com/akjmalamin7"
+    },
+    {
+        title:"Twitter",
+        icon:<TwitterIcon/>,
+        path:"https://twitter.com/akjmalamin7"
+    },
+    {
+        title:"Linkedin",
+        icon:<LinkedinIcon/>,
+        path:"https://linkedin.com/akjmalamin7"
+    },
+    {
+        title:"Youtube",
+        icon:<YoutubeIcon/>,
+        path:"https://youtube.com/akjmalamin7"
+    },
+    {
+        title:"Github",
+        icon:<GithubIcon/>,
+        path:"https://github.com/akjmalamin7"
+    }
+]

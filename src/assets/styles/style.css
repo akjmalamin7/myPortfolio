@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --white: #ffffff;
+    /* --red:rgba(220, 53, 69, 1); */
+    --red:#c39518;
+    --themeFont: 'Roboto', sans-serif;
+    --logoFont: 'Bebas Neue', cursive;
+
+    --regular: 400;
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
+
+    --xs: 12px;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    --xl: 20px;
+    --xxl: 24px;
+
+
+    --xsL: 22px;
+    --smL: 24px;
+    --mdL: 26px;
+    --lgL: 28px;
+    --xlL: 30px;
+    --xxlL: 34px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body {
+    font-family: var(--themeFont);
+    color: #ffffff;
+    background: #161516;
+    letter-spacing:.5px;
+}
+
+@media(min-width:1024px){
+
+}
+.activeMenu a span{
+    color:var(--red);
+}
+.activeMenu a span svg path{
+    fill:var(--red);
+}
