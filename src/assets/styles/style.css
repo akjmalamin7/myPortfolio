@@ -3,7 +3,8 @@
 :root {
     --white: #ffffff;
     /* --red:rgba(220, 53, 69, 1); */
-    --active:#ffba00;
+    /* --active:#ffba00; */
+    --active:#09d66c;
     --socialIcon:#c39518;
     --themeFont:'Ubuntu', sans-serif;
     --robot:'Roboto', sans-serif;

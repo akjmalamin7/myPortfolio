@@ -14,7 +14,7 @@ const Menu = styled.ul`
             display:flex;
             gap:15px;
             padding: 10px 25px;
-            border-bottom: 1px solid rgb(255 255 255 / 10%);
+            border-bottom: 1px solid rgb(9 214 108 / 18%);
             font-size: 12px;
             align-items: center;
             font-family: var(--themeFont);

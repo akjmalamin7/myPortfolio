@@ -30,7 +30,7 @@ const Menu = styled.ul`
               width:15px;
               height:15px;
               & path{
-                fill:var(--white);
+                fill:var(--active);
                 transition: all .3s ease-in-out;
             }
           }

@@ -6,7 +6,7 @@ const ProfileImgWrapper = styled.div`
     height: 95px;
     width: 95px;
     border-radius: 50%;
-    border: 5px solid #3c331c;
+    border: 5px solid #0ce57557;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
