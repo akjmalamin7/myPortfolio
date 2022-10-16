@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { useEffect } from 'react'
 import { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
@@ -15,12 +16,19 @@ const Item = styled.li`
     }
 `
 const Nav = (props) => {
+
+    
     const { title, path, icon, name} = props.menu
     const { menuActive, setMenuActive } = useContext(Context)
     const handleMenuActive = (name) => {
-        // let nameSet =  localStorage.setItem('menuName', name)
+        localStorage.setItem('menuName', name)
         setMenuActive(name)
     }
+    useEffect(()=>{
+        let setActiveMenu = localStorage.getItem("menuName")
+        setActiveMenu &&  setMenuActive(setActiveMenu)
+       
+    })
     return (
         <Fragment>
             <Item onClick={()=>handleMenuActive(name)} className={menuActive === name? 'activeMenu':''}>
