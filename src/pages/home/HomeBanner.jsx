@@ -3,7 +3,7 @@ import { Text } from '../../components/styled/typography'
 const HomeBanner = () => {
     return (
         <div>
-            <Text>I m very Passionate about computer and programming since I was
+            <Text size="sm" lineHeight="smL">I m very Passionate about computer and programming since I was
                 passing SSC exam. I dream to be an expert software engineer. The
                 Software that I will create will be very easy to understand and will
                 benefit people. My dream is to work with a good team in a good

@@ -9,8 +9,8 @@ const SidebarStyled = styled.div`
     position: fixed;
     left: -100%;
     top: 0;
-    background:#1e1d1e;
-    border-right: 2px solid #2e2c2e;
+    background:#000000;
+    border-right: 1px solid #9f7e2466;
     
 
     @media(min-width:1024px){

@@ -6,7 +6,7 @@ const ProfileImgWrapper = styled.div`
     height: 95px;
     width: 95px;
     border-radius: 50%;
-    border: 5px solid #ffe4e41c;
+    border: 5px solid #3c331c;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -14,6 +14,8 @@ const ProfileImgWrapper = styled.div`
     overflow: hidden;
     & img{
         width:100%;
+        transform: scale(1.5);
+        padding-top: 25px;
     }
 `
 const ProfileImg = () => {

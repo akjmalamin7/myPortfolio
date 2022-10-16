@@ -8,12 +8,6 @@ export const menus = [
         path:"/"
     },
     {
-        title:"About",
-        name:"__about",
-        icon:<AboutIcon/>,
-        path:"/about"
-    },
-    {
         title:"Portfolio",
         name:"__portfolio",
         icon:<PortfolioIcon/>,
@@ -30,6 +24,12 @@ export const menus = [
         name:"__resume",
         icon:<ResumeIcon/>,
         path:"/resume"
+    },
+    {
+        title:"About",
+        name:"__about",
+        icon:<AboutIcon/>,
+        path:"/about"
     },
     {
         title:"Contact",

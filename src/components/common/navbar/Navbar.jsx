@@ -15,10 +15,11 @@ const Menu = styled.ul`
             gap:15px;
             padding: 10px 25px;
             border-bottom: 1px solid rgb(255 255 255 / 10%);
-            font-size: 13px;
+            font-size: 12px;
             align-items: center;
-            font-family: var(--logoFont);
-            letter-spacing:1.5px;
+            font-family: var(--themeFont);
+            text-transform:uppercase;
+            font-weight:500;
             & span{
                 display:flex;
                 & svg{

@@ -12,14 +12,15 @@ const LogoWrapper = styled.div`
     align-items: center;
 }
     & a{
-        font-family: var(--logoFont);
+        font-family: var(--oswald);
         color: var(--white);
-        font-size: 22px;
-        letter-spacing: 2px;
-        // background: #00000038;
+        font-size: 20px;
+        letter-spacing: 1px;
         padding: 10px 20px;
+        text-transform: uppercase;
+        font-weight: 700;
         & span{
-            color:var(--red)
+            color:var(--active)
         }
     }
 `

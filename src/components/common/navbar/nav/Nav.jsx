@@ -8,10 +8,10 @@ import { Context } from '../../../../context/Context'
 const Item = styled.li`
     transition:all .3s;
     & :hover{
-        color:var(--red);
+        color:var(--active);
     }
     &:hover a span svg path{
-        fill:var(--red);
+        fill:var(--active);
        
     }
 `
